@@ -61,6 +61,7 @@ apache_packages_state: present
 enable_apache_lb: false
 load_balancer_is_required: false
 
-lb_name: "myapp1"
-web1: "172.31.84.166"
-web2: "172.31.88.39"
+#webservers
+loadbalancer_name: "myapp1"
+ip-172-31-26-240.us-west-2.compute.internal: "172.31.26.240 weight=3"
+ip-172-31-21-127.us-west-2.compute.internal: "172.31.21.172 weight=3"
